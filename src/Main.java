@@ -6,7 +6,9 @@ public class Main {
         char studentFirstInitial = 'P';
         char studentLastInitial = 'W';
         boolean hasPerfectAttendance = true;
+        String studentFirstName = "Pat";
+        String studentLastName = "Wyzlic";
 
-        System.out.println(studentAge);
+        System.out.printf("First Name: %s\nLast Name: %s\nAge: %d\nFirst Initial: %c.\nLast Initial: %c.\n", studentFirstName, studentLastName, studentAge, studentFirstInitial, studentLastInitial);
     }
 }
