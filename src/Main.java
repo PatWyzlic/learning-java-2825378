@@ -13,9 +13,10 @@ public class Main {
 
         //Double for tax rate
         double taxRate = 1.20;
+        //Calculate tax from price
         double taxCalculated = ((taxRate * .01) * price); 
 
-
+        //Question to figure out tip rate
         System.out.println("What would you like to tip % EX. 20");
 
         
@@ -26,6 +27,7 @@ public class Main {
         //Double for total
         double total = price + tipCalculated + taxCalculated;
 
+        //Print out results like receipt
         System.out.println("- - - - - - - - - - - -");
         System.out.println("Price: $" + price);
         System.out.println("- - - - - - - - - - - -");
